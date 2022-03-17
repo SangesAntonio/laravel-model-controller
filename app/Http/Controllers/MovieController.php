@@ -9,6 +9,7 @@ class MovieController extends Controller
     //movies
     public function index()
     {
-       $movies =
+        $movies = [];
+        return view('books.index', compact('movies'));
     }
 }
